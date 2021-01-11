@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Page 1</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Overlay" transform="translate(-676.000000, -515.000000)">
+            <path d="M717.302401,566 C716.944706,566 716.60169,565.858238 716.3488,565.606107 L710,559.278279 L711.907203,557.377377 L717.302401,562.754753 L728.092797,552 L730,553.900903 L718.256002,565.606107 C718.003112,565.858238 717.660096,566 717.302401,566 Z" id="Check" fill="#263276" fill-rule="nonzero"></path>
+            <circle id="Circle" stroke="#263276" stroke-width="3" cx="720" cy="559" r="42.5"></circle>
+        </g>
+    </g>
+</svg>

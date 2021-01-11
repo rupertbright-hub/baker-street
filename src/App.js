@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import './sass/App.scss'
+import { Button,Form, Header, Products, Modal} from './components'
+import React from 'react';
+import useModal from './hooks/useModal'
 
 function App() {
+
+    const {isShowing, toggle} = useModal();
+    console.log(isShowing)
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='header'>
+    <Header/>
+    </div>
+    <div className='button'>
+    <Modal isShowing={isShowing}
+        hide={toggle}/>
+    </div>
+    <div className='products'>
+    <Products/>
+    </div>
+    <div className='form'>
+    <Form/>
+    </div>
+    <div className='button' >
+    <Button toggle={toggle}/>
+    </div>
+    <div>
+    </div>
     </div>
   );
 }

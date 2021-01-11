@@ -1,0 +1,86 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.20);
+    backdrop-filter: blur(5px);
+}
+
+.modal-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+}
+
+.modal {
+    z-index: 100;
+    background: $base;
+    position: relative;
+    margin: 15% auto;
+    border-radius: 10px;
+    max-width: 840px;
+    padding: 2rem;
+    border: 1px solid rgba(0,0,0,0.10);
+    box-shadow: 0 20px 40px 0 rgba(0,0,0,0.05);
+    text-align:center;
+    color: $accent;
+    height:400px;
+
+    h1 {
+        margin-top: 36px;
+        font-size:30px;
+        font-weight:$black;
+    }
+
+    p {
+        width: 70%;
+  margin:20px auto;
+  text-align: center;
+  font-size:14px;
+  line-height: 20px;;
+    }
+
+    img {
+        margin-top: 5%;
+        height: 88px;
+        width:88px;
+    }
+
+}
+
+.modal-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal-close-button {
+    font-size: 35px;
+    font-weight: $bold;
+    line-height: 1;
+    cursor: pointer;
+    border: none;
+    color:$accent;
+}
+
+button {
+    font-size: .9rem;
+    font-weight: $regular;
+    border: none;
+    border-radius: 3px;
+    padding: .3rem 1rem;
+    margin: 0 auto;
+}
+
+.button-default {
+    background: #247BA0;
+
+}

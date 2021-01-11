@@ -1,0 +1,83 @@
+@import './_variables.scss';
+
+.form-container {
+    width:515px;
+    text-align: center;
+    font-family: helvetica;
+    color: $accent;
+
+    h2 {
+        margin-bottom:47px;
+        line-height:27px;
+    }
+}
+
+input[type=text], textarea {
+    width: 100%; 
+    padding: 20px; 
+    border: 1px solid rgba(38,50,118,0.50);
+    border-radius: 6px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+font-size: 18px;
+line-height: 14px;
+font-weight: $bold;
+font-family: helvetica;
+  }
+
+  input[type=checkbox] {
+    cursor: pointer;
+    padding: 6px 8px;
+    border-radius: 6px;
+  }
+
+  select {
+    width: 100%; 
+    padding: 20px; 
+    border: 1px solid rgba(38,50,118,0.50);
+    border-radius: 6px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+font-size: 14px;
+color: $accent;
+line-height: 17px;
+font-weight: $regular;
+font-family: Helvetica, Sans-Serif;
+
+  }
+
+.form-terms {
+    text-align:left;
+    margin-left: 4px;
+
+    label {
+        margin-left:10px;
+        color: $accent;
+        font-size: 14px;
+        line-height:16px;
+ 
+
+        span {
+            text-decoration: underline;
+        
+        }
+        
+        
+    }
+}
+
+::placeholder {
+    font-weight: $regular;
+    font-size: 14px;
+    line-height: 17px;
+    color: $accent;
+    font-family: Helvetica, Sans-Serif;
+}
+
+
+
+

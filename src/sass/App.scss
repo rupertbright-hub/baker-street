@@ -4,6 +4,7 @@
 @import './_products.scss';
 @import './_variables.scss';
 @import './_modal.scss';
+@import './_checkbox.scss';
 
 
 * {
@@ -30,8 +31,8 @@ h1,h2,h3,p {
 
 .form {
     display: flex;
-  justify-content: center;
-  position: relative;
+    justify-content: center;
+    position: relative;
     top:-40px;
 }
 

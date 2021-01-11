@@ -25,15 +25,15 @@ font-size: 18px;
 line-height: 14px;
 font-weight: $bold;
 font-family: helvetica;
-  }
+}
 
-  input[type=checkbox] {
+input[type=checkbox] {
     cursor: pointer;
     padding: 6px 8px;
     border-radius: 6px;
-  }
+}
 
-  select {
+select {
     width: 100%; 
     padding: 20px; 
     border: 1px solid rgba(38,50,118,0.50);
@@ -42,13 +42,13 @@ font-family: helvetica;
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical; 
-font-size: 14px;
-color: $accent;
-line-height: 17px;
-font-weight: $regular;
-font-family: Helvetica, Sans-Serif;
+    font-size: 14px;
+    color: $accent;
+    line-height: 17px;
+    font-weight: $regular;
+    font-family: Helvetica, Sans-Serif;
 
-  }
+}
 
 .form-terms {
     text-align:left;
@@ -58,16 +58,13 @@ font-family: Helvetica, Sans-Serif;
         margin-left:10px;
         color: $accent;
         font-size: 14px;
-        line-height:16px;
- 
+        line-height:30px;
+    }
 
         span {
             text-decoration: underline;
-        
+            line-height:30px;
         }
-        
-        
-    }
 }
 
 ::placeholder {

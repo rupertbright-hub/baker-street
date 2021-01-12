@@ -25,6 +25,7 @@ font-size: 18px;
 line-height: 14px;
 font-weight: $bold;
 font-family: helvetica;
+color: $accent;
 }
 
 input[type=checkbox] {
@@ -58,7 +59,7 @@ select {
         margin-left:10px;
         color: $accent;
         font-size: 14px;
-        line-height:30px;
+        line-height:16px;
     }
 
         span {
@@ -73,6 +74,10 @@ select {
     line-height: 17px;
     color: $accent;
     font-family: Helvetica, Sans-Serif;
+}
+
+.button-container {
+    margin-top: 40px;;
 }
 
 

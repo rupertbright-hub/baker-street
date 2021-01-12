@@ -1,5 +1,5 @@
 import './sass/App.scss'
-import { Button,Form, Header, Products, Modal} from './components'
+import { Form, Header, Products, Modal} from './components'
 import React from 'react';
 import useModal from './hooks/useModal'
 
@@ -19,10 +19,7 @@ function App() {
             <Products/>
         </div>
         <div className='form'>
-            <Form/>
-        </div>
-        <div className='button' >
-            <Button toggle={toggle}/>
+            <Form toggle={toggle}/>
         </div>
     </div>
 );

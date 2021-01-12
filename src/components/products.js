@@ -10,17 +10,17 @@ function products() {
 return (
     <div className='products-container'>
         <h2>Products</h2>
-        {data.map((el, index) => (
-        <div>
+        {data.map((product, index) => (
+        <div key={index}>
             <div className={(index === num ?'product-item-last': 'product-item')}>
                 <div className='checkbox-position'>
-                    <input class={(index === num ?'inp-cbx2': 'inp-cbx')} id={index} type="checkbox" />
-                    <label class="cbx" for={index}><span>
-                        <svg width="30px" height="30px">
+                    <input className={(index === num ?'inp-cbx2': 'inp-cbx')} id={index} type="checkbox" />
+                    <label className="cbx" htmlFor={index}><span>
+                        <svg width="16px" height="16px">
                             <use href="#check"></use>
                         </svg></span></label>
-                        <svg width="30px" height="30px" class="inline-svg">
-                            <symbol id="check" viewbox="0 0 12 10">
+                        <svg width="16px" height="16px" className="inline-svg">
+                            <symbol id="check" viewBox="0 0 12 10">
                                 <polyline points="0 6 4.5 9 10.5 1"></polyline>
                             </symbol>
                         </svg>
@@ -28,12 +28,12 @@ return (
                     <img src={(index !== num) ? Pmage : Present } className={(index !== num ? 'img1': 'img2')} alt='img'></img>
                         {(index !== num) ?  (
                         <div>
-                            <h3>{el.heading}</h3>
-                            <p>{el.paragraph}</p>
+                            <h3>{product.heading}</h3>
+                            <p>{product.paragraph}</p>
                         </div>) : 
                         (<div className='last-container'>
-                            <p>{el.heading}</p>
-                            <p>{el.paragraph}</p>
+                            <p>{product.heading}</p>
+                            <p>{product.paragraph}</p>
                         </div>)}
             </div>
         </div>

@@ -3,7 +3,7 @@
 	display: flex;
 	justify-content: center;
     align-items: center;
-    margin-bottom: 200px;
+    margin-top: 40px;
 	
 
 	&:nth-child(1) {
@@ -19,7 +19,7 @@ button {
 	position: relative;
 	min-width: var(--width);
 	min-height: var(--height);
-	border-radius: 5px;
+	border-radius: 20px;
 	color: #fff;
 	font-family: "Montserrat";
 	font-weight: bold;
@@ -39,9 +39,8 @@ button {
         z-index: 2;
         font-size:12px;
         text-transform: uppercase;
-        
-	}
-
+    }
+    
 	.icon-container {
 		--icon-size: 25px;
 		position: relative;
@@ -59,7 +58,7 @@ button {
 			transition: transform 500ms ease, opacity 250ms ease;
 
 			&--left {
-				transform: translateX(-200%);
+				transform: translateX(-100%);
 				opacity: 0;
 			}
 
@@ -80,7 +79,8 @@ button {
 		height: 100%;
 		background: var(--btn-bg);
 		z-index: 1;
-		transition: transform 500ms ease;
+        transition: transform 500ms ease;
+        
 	}
 
 	&:hover {

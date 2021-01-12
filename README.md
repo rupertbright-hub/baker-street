@@ -1,4 +1,4 @@
-# Landing page coding challenge
+# Landing page - coding challenge
 
 <!-- Remember to reflect any changes to the readme in the Table of Contents-->
 
@@ -23,7 +23,7 @@ These instructions will help you setup a local development instance of the app.
 ### Front End
 
 - [React](https://reactjs.org/)
-- [React Query](https://react-query.tanstack.com/)
+- [Sass](https://sass-lang.com//)
 
 ## Contributors
 

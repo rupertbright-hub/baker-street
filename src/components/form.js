@@ -3,7 +3,7 @@ import {Button} from '../components';
 
 function Form(props) {
 
-    //basic form functionality 
+//basic form functionality 
 
 const [form, setForm] = useState({salutation:'', fname:'', lname:'', message:''})
 
@@ -37,7 +37,7 @@ function handleChange(evt) {
             <div className='form-terms'>
                 <div>
                     <input id="box"  className="inp-cbx" type="checkbox" />
-                    <label  htmlFor="box" className="cbx">
+                    <label  for="box" className="cbx">
                     <span>
                         <svg width="16px" height="16px">
                             <use href="#check"></use>
@@ -53,11 +53,7 @@ function handleChange(evt) {
                 </div>
             </div>
         </form>
-
-        
         <Button handleSubmit={handleSubmit}/>
-   
-        
         </div>
     )
 }
